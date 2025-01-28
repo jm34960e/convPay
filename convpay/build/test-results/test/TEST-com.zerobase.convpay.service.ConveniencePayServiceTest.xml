@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.zerobase.convpay.service.ConveniencePayServiceTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2025-01-19T11:23:41" hostname="DESKTOP-P1A7JJO" time="0.026">
+  <properties/>
+  <testcase name="pay_success()" classname="com.zerobase.convpay.service.ConveniencePayServiceTest" time="0.024">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;SUCCESS&gt; but was: &lt;FAIL&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;SUCCESS&gt; but was: &lt;FAIL&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at app//com.zerobase.convpay.service.ConveniencePayServiceTest.pay_success(ConveciencePayServiceTest.java:24)
+	at java.base@23.0.1/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@23.0.1/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base@23.0.1/java.util.ArrayList.forEach(ArrayList.java:1597)
+</failure>
+  </testcase>
+  <testcase name="pay_fail()" classname="com.zerobase.convpay.service.ConveniencePayServiceTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;FAIL&gt; but was: &lt;SUCCESS&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;FAIL&gt; but was: &lt;SUCCESS&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at app//com.zerobase.convpay.service.ConveniencePayServiceTest.pay_fail(ConveciencePayServiceTest.java:38)
+	at java.base@23.0.1/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@23.0.1/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base@23.0.1/java.util.ArrayList.forEach(ArrayList.java:1597)
+</failure>
+  </testcase>
+  <system-out><![CDATA[MoneyAdapter.use : 100
+MoneyAdapter.use : 1000001
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
